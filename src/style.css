@@ -1,0 +1,18 @@
+
+.text-block{
+    margin-bottom: 50px;
+}
+
+#btnConvert {
+  width: 150px;
+  height: 30px;
+  border-radius: 50px;
+  cursor:pointer;
+}
+#splitBtn {
+  width: 150px;
+  height: 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-left: 50px;
+}

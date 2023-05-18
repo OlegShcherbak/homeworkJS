@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/style.css">
+    <title>Test JS</title>
+</head>
+
+<body>
+    <div class="text-block">
+        <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sunt.</p>
+        <button id="btnConvert">Convert to code</button>
+        <button id="splitBtn">Show length</button>
+    </div>
+    <div class="tableSort">
+        <table>
+            <caption>List of users</caption>
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col" id="first" onclick="sortCol(first)">First</th>
+                    <th scope="col" id="second">Last</th>
+                    <th scope="col" id="last">Handle</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td id="first1">Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td id="first2">Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td id="first3">Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
